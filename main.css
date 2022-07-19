@@ -1,3 +1,4 @@
+
 .homepage #catAbb,
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
@@ -31,3 +32,124 @@ p.more {
 }
 
 /* Your code here */
+* {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+a:visited {
+  color: #800080;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a > span:hover {
+ font-weight: bold;
+ color:#800080;
+}
+
+.page-container {
+ max-width: 1200px;
+}
+
+#leftbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+#center {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+#rightbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+footer .clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+}
+
+.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮️";
+  margin-right: 5px;
+}
+
+td {
+  border: 1px solid #333;
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+td a {
+  background-color: transparent;
+  color: green;
+  font-weight: bold;
+}
+td a:hover {
+  color: green;
+}
+
+.past {
+  color: black;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.today {
+  background-color: darkviolet;
+}
+
+.today a {
+  color: white;
+}
+
+td:hover {
+  background-color: lavender;
+}
+
